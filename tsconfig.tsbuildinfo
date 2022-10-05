@@ -1,0 +1,1005 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea",
+        "signature": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea"
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de",
+        "signature": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de"
+      },
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf",
+        "signature": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf"
+      },
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408",
+        "signature": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408"
+      },
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "./node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "./node_modules/@lumino/coreutils/types/json.d.ts": {
+        "version": "44a4b5ef53f2ff94bfcfa223e3fc3ad35f32bef57337e050513dd7c729a0cb63",
+        "signature": "44a4b5ef53f2ff94bfcfa223e3fc3ad35f32bef57337e050513dd7c729a0cb63"
+      },
+      "./node_modules/@lumino/coreutils/types/mime.d.ts": {
+        "version": "47dbb9212d0f309e56914de06038a91ad4f0ce9e28a200ebe7c8268bada8fede",
+        "signature": "47dbb9212d0f309e56914de06038a91ad4f0ce9e28a200ebe7c8268bada8fede"
+      },
+      "./node_modules/@lumino/coreutils/types/promise.d.ts": {
+        "version": "a57ee34edf8791c8c4395ada1fb459df7aad714838555ab306729b66db795840",
+        "signature": "a57ee34edf8791c8c4395ada1fb459df7aad714838555ab306729b66db795840"
+      },
+      "./node_modules/@lumino/coreutils/types/token.d.ts": {
+        "version": "facc62a0c8748f37d6c85d3e5a6eb4cd1d40a899d4ee2c360c9ec4756513931c",
+        "signature": "facc62a0c8748f37d6c85d3e5a6eb4cd1d40a899d4ee2c360c9ec4756513931c"
+      },
+      "./node_modules/@lumino/coreutils/types/index.common.d.ts": {
+        "version": "d59884537fee2053545586c2ea66e27ae54fa0e59e9fec4ef58b9bb3eb3a676c",
+        "signature": "d59884537fee2053545586c2ea66e27ae54fa0e59e9fec4ef58b9bb3eb3a676c"
+      },
+      "./node_modules/@lumino/coreutils/types/random.d.ts": {
+        "version": "f58caa451ccf0cdc2834698380fa13f964033178d0cb73cce5d2fd2ba0cfbade",
+        "signature": "f58caa451ccf0cdc2834698380fa13f964033178d0cb73cce5d2fd2ba0cfbade"
+      },
+      "./node_modules/@lumino/coreutils/types/random.browser.d.ts": {
+        "version": "42b37508de20026ecfb53ad4293a3fb1d5ceac85d03f4d831c999db3f2d942cc",
+        "signature": "42b37508de20026ecfb53ad4293a3fb1d5ceac85d03f4d831c999db3f2d942cc"
+      },
+      "./node_modules/@lumino/coreutils/types/uuid.browser.d.ts": {
+        "version": "6bb2babdac69f5089b8e5d645977aa18301e6c9ddd8e80fdd5996149235ffe35",
+        "signature": "6bb2babdac69f5089b8e5d645977aa18301e6c9ddd8e80fdd5996149235ffe35"
+      },
+      "./node_modules/@lumino/coreutils/types/index.d.ts": {
+        "version": "741e32002f767357ff950d74855ea336e51409738f861e6d5a163cd4b0450bd2",
+        "signature": "741e32002f767357ff950d74855ea336e51409738f861e6d5a163cd4b0450bd2"
+      },
+      "./node_modules/@lumino/messaging/types/index.d.ts": {
+        "version": "cac40d24651330bd29ebcf835dc9014a8d9ce02219503fb1dd880ffd27d71b3b",
+        "signature": "cac40d24651330bd29ebcf835dc9014a8d9ce02219503fb1dd880ffd27d71b3b"
+      },
+      "./node_modules/@lumino/algorithm/types/array.d.ts": {
+        "version": "df52f40fae2bd287b9fb52f0d4cd6978891f5b9e12c8bc4b51f5aeb20673db24",
+        "signature": "df52f40fae2bd287b9fb52f0d4cd6978891f5b9e12c8bc4b51f5aeb20673db24"
+      },
+      "./node_modules/@lumino/algorithm/types/iter.d.ts": {
+        "version": "95a373d620cf8adb5baa4d4f18c0880d9279761d742075693b64dcfe25d93249",
+        "signature": "95a373d620cf8adb5baa4d4f18c0880d9279761d742075693b64dcfe25d93249"
+      },
+      "./node_modules/@lumino/algorithm/types/chain.d.ts": {
+        "version": "59c71ace3907b7558202ab9fb0fc29d0f000455e6addb8891476ea6f29704fb0",
+        "signature": "59c71ace3907b7558202ab9fb0fc29d0f000455e6addb8891476ea6f29704fb0"
+      },
+      "./node_modules/@lumino/algorithm/types/empty.d.ts": {
+        "version": "ac222059167c12b97693a32458d469428079921ef2e21a41370e192f679559a4",
+        "signature": "ac222059167c12b97693a32458d469428079921ef2e21a41370e192f679559a4"
+      },
+      "./node_modules/@lumino/algorithm/types/enumerate.d.ts": {
+        "version": "49fa72b3dd09f2d8cfa8538f3aba53644e90a99866c486a1e535f6e45a809019",
+        "signature": "49fa72b3dd09f2d8cfa8538f3aba53644e90a99866c486a1e535f6e45a809019"
+      },
+      "./node_modules/@lumino/algorithm/types/filter.d.ts": {
+        "version": "4bd953ab46129d1a06fc848cc1e04f69d003cba1010839ae5f11d9a8ecc1b45c",
+        "signature": "4bd953ab46129d1a06fc848cc1e04f69d003cba1010839ae5f11d9a8ecc1b45c"
+      },
+      "./node_modules/@lumino/algorithm/types/find.d.ts": {
+        "version": "985be8579445c37fccc690db36529d9197abac484b76e2374845eda82fc134be",
+        "signature": "985be8579445c37fccc690db36529d9197abac484b76e2374845eda82fc134be"
+      },
+      "./node_modules/@lumino/algorithm/types/map.d.ts": {
+        "version": "778e780516d0cfa36e160dcdbc2cc64193fb13853c4019bafeb2adc39d4b6f95",
+        "signature": "778e780516d0cfa36e160dcdbc2cc64193fb13853c4019bafeb2adc39d4b6f95"
+      },
+      "./node_modules/@lumino/algorithm/types/range.d.ts": {
+        "version": "61821a4dfe8525bb4082648600ecd1f945698fb65a0bbf4fa2b6e160751fe5e1",
+        "signature": "61821a4dfe8525bb4082648600ecd1f945698fb65a0bbf4fa2b6e160751fe5e1"
+      },
+      "./node_modules/@lumino/algorithm/types/reduce.d.ts": {
+        "version": "6f2192fe22e5aed3e61ae7891921feb8601bfa101161c7b522965d709210cc41",
+        "signature": "6f2192fe22e5aed3e61ae7891921feb8601bfa101161c7b522965d709210cc41"
+      },
+      "./node_modules/@lumino/algorithm/types/repeat.d.ts": {
+        "version": "39effd6ab75c733dd48cbe43a91658cec9cf86db5a961d3b091d8194b7e7b573",
+        "signature": "39effd6ab75c733dd48cbe43a91658cec9cf86db5a961d3b091d8194b7e7b573"
+      },
+      "./node_modules/@lumino/algorithm/types/retro.d.ts": {
+        "version": "431207ccbae58b4046cba4a5956beeea69a151defc993bcba16b357cbc8871e7",
+        "signature": "431207ccbae58b4046cba4a5956beeea69a151defc993bcba16b357cbc8871e7"
+      },
+      "./node_modules/@lumino/algorithm/types/sort.d.ts": {
+        "version": "2053f012d9d8edaeb4b66bb65120888dd342be84316cc7b85e78cae9ceade349",
+        "signature": "2053f012d9d8edaeb4b66bb65120888dd342be84316cc7b85e78cae9ceade349"
+      },
+      "./node_modules/@lumino/algorithm/types/stride.d.ts": {
+        "version": "bcfae0d75f0dd13b0d0bd6bb6a1a527076f23d48335a1530211d4926556edf4d",
+        "signature": "bcfae0d75f0dd13b0d0bd6bb6a1a527076f23d48335a1530211d4926556edf4d"
+      },
+      "./node_modules/@lumino/algorithm/types/string.d.ts": {
+        "version": "b8186710d384b0b58f9ac2e8e9e4a8cf6385718fd47f12adfca9e163def1fa5e",
+        "signature": "b8186710d384b0b58f9ac2e8e9e4a8cf6385718fd47f12adfca9e163def1fa5e"
+      },
+      "./node_modules/@lumino/algorithm/types/take.d.ts": {
+        "version": "2e55931399ada20784a0903627d3e7cac14e6849ef7e589f32907ed733160af0",
+        "signature": "2e55931399ada20784a0903627d3e7cac14e6849ef7e589f32907ed733160af0"
+      },
+      "./node_modules/@lumino/algorithm/types/zip.d.ts": {
+        "version": "425744ecce376e0c201eb15a24df23c20b9f9222c25501a64147191255f1a5bb",
+        "signature": "425744ecce376e0c201eb15a24df23c20b9f9222c25501a64147191255f1a5bb"
+      },
+      "./node_modules/@lumino/algorithm/types/index.d.ts": {
+        "version": "d9700500170f5138bbb3b59ede0d2303486b24826a19dd242eaaa667a3735b63",
+        "signature": "d9700500170f5138bbb3b59ede0d2303486b24826a19dd242eaaa667a3735b63"
+      },
+      "./node_modules/@lumino/signaling/types/index.d.ts": {
+        "version": "11e5e4c5983c5150410112a156503aa02b29fed56100314eb3a77334a5e2ec6c",
+        "signature": "11e5e4c5983c5150410112a156503aa02b29fed56100314eb3a77334a5e2ec6c"
+      },
+      "./node_modules/@lumino/disposable/types/index.d.ts": {
+        "version": "80a29bdb045c8403249b0df81e2c660139556735e363b9228b9e6ed731576cfe",
+        "signature": "80a29bdb045c8403249b0df81e2c660139556735e363b9228b9e6ed731576cfe"
+      },
+      "./node_modules/@lumino/virtualdom/types/index.d.ts": {
+        "version": "189b287ec7c821f61bf76d90a62575b048d0434c3baee8fc8dea6c30ebc35999",
+        "signature": "189b287ec7c821f61bf76d90a62575b048d0434c3baee8fc8dea6c30ebc35999"
+      },
+      "./node_modules/@lumino/widgets/types/title.d.ts": {
+        "version": "a4b91055eac6096b0d40a4981c4a993d3e259b1f009360880902e98eb5e028ea",
+        "signature": "a4b91055eac6096b0d40a4981c4a993d3e259b1f009360880902e98eb5e028ea"
+      },
+      "./node_modules/@lumino/widgets/types/widget.d.ts": {
+        "version": "29476079a25eac3dd7aa7af3411cd675b6a446f7e56b9fb720a7f4c451b6cb8b",
+        "signature": "29476079a25eac3dd7aa7af3411cd675b6a446f7e56b9fb720a7f4c451b6cb8b"
+      },
+      "./node_modules/@lumino/widgets/types/layout.d.ts": {
+        "version": "e28b6033949daa05a21c45ac3bf4db03d07e9da632a976224c57744c46bce08e",
+        "signature": "e28b6033949daa05a21c45ac3bf4db03d07e9da632a976224c57744c46bce08e"
+      },
+      "./node_modules/@lumino/widgets/types/panellayout.d.ts": {
+        "version": "b6fe9902db09a08fb5816c2644d47b21b48763a6493d1f2080dcc8f97f63ffd5",
+        "signature": "b6fe9902db09a08fb5816c2644d47b21b48763a6493d1f2080dcc8f97f63ffd5"
+      },
+      "./node_modules/@lumino/widgets/types/splitlayout.d.ts": {
+        "version": "92e8a3c3a8469d4afad78dbee2dd444ccbb8f96b87cba06a3c2b5480eb67c311",
+        "signature": "92e8a3c3a8469d4afad78dbee2dd444ccbb8f96b87cba06a3c2b5480eb67c311"
+      },
+      "./node_modules/@lumino/widgets/types/accordionlayout.d.ts": {
+        "version": "0b2d7f6ab179f786acc2e52f0470e25ff5bb9c92bb625424f452e05b1111c059",
+        "signature": "0b2d7f6ab179f786acc2e52f0470e25ff5bb9c92bb625424f452e05b1111c059"
+      },
+      "./node_modules/@lumino/widgets/types/panel.d.ts": {
+        "version": "4ea4e4aeb7cc473d641ec53cc7a05324ff1c528e452e1a0f5949a245911d4775",
+        "signature": "4ea4e4aeb7cc473d641ec53cc7a05324ff1c528e452e1a0f5949a245911d4775"
+      },
+      "./node_modules/@lumino/widgets/types/splitpanel.d.ts": {
+        "version": "d29aaf721f4504024f0f55fed33190b289699b5664a4b312ba1e2aff6b7999ae",
+        "signature": "d29aaf721f4504024f0f55fed33190b289699b5664a4b312ba1e2aff6b7999ae"
+      },
+      "./node_modules/@lumino/widgets/types/accordionpanel.d.ts": {
+        "version": "f32fe8c0e5f39f675c67525804e2da8e27bf49194e5cd9cde5bd776f2e418251",
+        "signature": "f32fe8c0e5f39f675c67525804e2da8e27bf49194e5cd9cde5bd776f2e418251"
+      },
+      "./node_modules/@lumino/widgets/types/boxengine.d.ts": {
+        "version": "6ce99f2c6e7c79a0b467e93cc607909fdeea4075ac24b2ea26df81c756c91197",
+        "signature": "6ce99f2c6e7c79a0b467e93cc607909fdeea4075ac24b2ea26df81c756c91197"
+      },
+      "./node_modules/@lumino/widgets/types/boxlayout.d.ts": {
+        "version": "b450cc3a4ab4ba2663144cb5d2bee1dad19437bb22008bf4cb6abf33ab93c394",
+        "signature": "b450cc3a4ab4ba2663144cb5d2bee1dad19437bb22008bf4cb6abf33ab93c394"
+      },
+      "./node_modules/@lumino/widgets/types/boxpanel.d.ts": {
+        "version": "eb0acd32fc29c07e864c737a4811b71159e03833b36febb85f7e47259d87e135",
+        "signature": "eb0acd32fc29c07e864c737a4811b71159e03833b36febb85f7e47259d87e135"
+      },
+      "./node_modules/@lumino/commands/types/index.d.ts": {
+        "version": "c6b20e1b6eddfa0fb53e1b5f6c5dc3aac8ce0114b1c3ed9e9850736b5db88f35",
+        "signature": "c6b20e1b6eddfa0fb53e1b5f6c5dc3aac8ce0114b1c3ed9e9850736b5db88f35"
+      },
+      "./node_modules/@lumino/widgets/types/commandpalette.d.ts": {
+        "version": "1293b8f4930237c82f58861ca488f50a2537a88f94682440f9fd07223ccee56c",
+        "signature": "1293b8f4930237c82f58861ca488f50a2537a88f94682440f9fd07223ccee56c"
+      },
+      "./node_modules/@lumino/widgets/types/menu.d.ts": {
+        "version": "2c12e9393125ae27eee5f69e9b28cd65bd1073db0c99dd0625436f9b9815258e",
+        "signature": "2c12e9393125ae27eee5f69e9b28cd65bd1073db0c99dd0625436f9b9815258e"
+      },
+      "./node_modules/@lumino/widgets/types/contextmenu.d.ts": {
+        "version": "cfef3a852fed8d8e32682841735514dc19a614d2bb04e0de6a430e72a3130ac6",
+        "signature": "cfef3a852fed8d8e32682841735514dc19a614d2bb04e0de6a430e72a3130ac6"
+      },
+      "./node_modules/@lumino/widgets/types/tabbar.d.ts": {
+        "version": "8e6a1619fb5e821c9682264696871b55f1ab21903477d6272b44d6824fc511c2",
+        "signature": "8e6a1619fb5e821c9682264696871b55f1ab21903477d6272b44d6824fc511c2"
+      },
+      "./node_modules/@lumino/widgets/types/docklayout.d.ts": {
+        "version": "c2d6545069db68b471ce68ef45ed33327663dc9c832c0bee2a72cd360a08f7fe",
+        "signature": "c2d6545069db68b471ce68ef45ed33327663dc9c832c0bee2a72cd360a08f7fe"
+      },
+      "./node_modules/@lumino/widgets/types/dockpanel.d.ts": {
+        "version": "1d4df0f49549c39bc09a70dc267f5d0022f4cab181750f4d50d61ee30edd5a07",
+        "signature": "1d4df0f49549c39bc09a70dc267f5d0022f4cab181750f4d50d61ee30edd5a07"
+      },
+      "./node_modules/@lumino/widgets/types/focustracker.d.ts": {
+        "version": "b36ccfcfa507c9be4bc662468d708d9fadb87d6950583f60456799e2534eac1b",
+        "signature": "b36ccfcfa507c9be4bc662468d708d9fadb87d6950583f60456799e2534eac1b"
+      },
+      "./node_modules/@lumino/widgets/types/gridlayout.d.ts": {
+        "version": "9d3fb450742b3f5c5f459177e70fa3c4c4ab52d0b4215be87cfcdf5fc8685ad2",
+        "signature": "9d3fb450742b3f5c5f459177e70fa3c4c4ab52d0b4215be87cfcdf5fc8685ad2"
+      },
+      "./node_modules/@lumino/widgets/types/menubar.d.ts": {
+        "version": "036adf93fb4f6f977fdfa686d8add1830e9d30f3066b4390530c4c2189754fc2",
+        "signature": "036adf93fb4f6f977fdfa686d8add1830e9d30f3066b4390530c4c2189754fc2"
+      },
+      "./node_modules/@lumino/widgets/types/scrollbar.d.ts": {
+        "version": "ff8fce615e42a7a40d34fd1110488663bc010469e7cd3d21df8ddda06f6ebd95",
+        "signature": "ff8fce615e42a7a40d34fd1110488663bc010469e7cd3d21df8ddda06f6ebd95"
+      },
+      "./node_modules/@lumino/widgets/types/singletonlayout.d.ts": {
+        "version": "cb114e95d686eadc19feda14f7ae0c497fd060415cf669d4062447ef22b54e93",
+        "signature": "cb114e95d686eadc19feda14f7ae0c497fd060415cf669d4062447ef22b54e93"
+      },
+      "./node_modules/@lumino/widgets/types/stackedlayout.d.ts": {
+        "version": "1fb371850fe099544d0a16b29f3627fe634e4ca2f1e4ac92c12f4481fb1395e5",
+        "signature": "1fb371850fe099544d0a16b29f3627fe634e4ca2f1e4ac92c12f4481fb1395e5"
+      },
+      "./node_modules/@lumino/widgets/types/stackedpanel.d.ts": {
+        "version": "4f3efa9e1d11ad4670f1773324781831819064d702e85616b05534025e927a81",
+        "signature": "4f3efa9e1d11ad4670f1773324781831819064d702e85616b05534025e927a81"
+      },
+      "./node_modules/@lumino/widgets/types/tabpanel.d.ts": {
+        "version": "c172f46cd9c655653f116d3707ef6c84aa3e924514685e78ac5dababe2986313",
+        "signature": "c172f46cd9c655653f116d3707ef6c84aa3e924514685e78ac5dababe2986313"
+      },
+      "./node_modules/@lumino/widgets/types/index.d.ts": {
+        "version": "5f90fbeec75ffafa87e37f8e1caa1411174f0d89f24b0bb19970e18bb1dd3c0d",
+        "signature": "5f90fbeec75ffafa87e37f8e1caa1411174f0d89f24b0bb19970e18bb1dd3c0d"
+      },
+      "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": {
+        "version": "85497ff49b25c088caa764f9897a4b0a09825204dff99de9e75a0d6987330374",
+        "signature": "85497ff49b25c088caa764f9897a4b0a09825204dff99de9e75a0d6987330374"
+      },
+      "./src/index.ts": {
+        "version": "c5513aafae4f6e65f45440c84ed3098d85f4b09896198328bafd437b20e590f2",
+        "signature": "1ea7f4610007a6f3f775df747fb718d3dfbab77e62789d6248701c06907f378c"
+      }
+    },
+    "options": {
+      "allowSyntheticDefaultImports": true,
+      "composite": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "incremental": true,
+      "jsx": 2,
+      "module": 99,
+      "moduleResolution": 2,
+      "noEmitOnError": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": true,
+      "outDir": "./lib",
+      "preserveWatchOutput": true,
+      "resolveJsonModule": true,
+      "rootDir": "./src",
+      "sourceMap": true,
+      "strict": true,
+      "target": 4,
+      "types": [],
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/@lumino/coreutils/types/index.common.d.ts": [
+        "./node_modules/@lumino/coreutils/types/json.d.ts",
+        "./node_modules/@lumino/coreutils/types/mime.d.ts",
+        "./node_modules/@lumino/coreutils/types/promise.d.ts",
+        "./node_modules/@lumino/coreutils/types/token.d.ts"
+      ],
+      "./node_modules/@lumino/coreutils/types/random.browser.d.ts": [
+        "./node_modules/@lumino/coreutils/types/random.d.ts"
+      ],
+      "./node_modules/@lumino/coreutils/types/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.common.d.ts",
+        "./node_modules/@lumino/coreutils/types/random.browser.d.ts",
+        "./node_modules/@lumino/coreutils/types/uuid.browser.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/chain.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/empty.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/enumerate.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/filter.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/find.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/map.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/range.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/reduce.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/repeat.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/retro.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/sort.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/stride.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/take.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/zip.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/index.d.ts": [
+        "./node_modules/@lumino/algorithm/types/array.d.ts",
+        "./node_modules/@lumino/algorithm/types/chain.d.ts",
+        "./node_modules/@lumino/algorithm/types/empty.d.ts",
+        "./node_modules/@lumino/algorithm/types/enumerate.d.ts",
+        "./node_modules/@lumino/algorithm/types/filter.d.ts",
+        "./node_modules/@lumino/algorithm/types/find.d.ts",
+        "./node_modules/@lumino/algorithm/types/iter.d.ts",
+        "./node_modules/@lumino/algorithm/types/map.d.ts",
+        "./node_modules/@lumino/algorithm/types/range.d.ts",
+        "./node_modules/@lumino/algorithm/types/reduce.d.ts",
+        "./node_modules/@lumino/algorithm/types/repeat.d.ts",
+        "./node_modules/@lumino/algorithm/types/retro.d.ts",
+        "./node_modules/@lumino/algorithm/types/sort.d.ts",
+        "./node_modules/@lumino/algorithm/types/stride.d.ts",
+        "./node_modules/@lumino/algorithm/types/string.d.ts",
+        "./node_modules/@lumino/algorithm/types/take.d.ts",
+        "./node_modules/@lumino/algorithm/types/zip.d.ts"
+      ],
+      "./node_modules/@lumino/disposable/types/index.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/title.d.ts": [
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/widget.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/layout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/panellayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/splitlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/accordionlayout.d.ts": [
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/panel.d.ts": [
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/splitpanel.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/accordionpanel.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/accordionlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/boxlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/boxpanel.d.ts": [
+        "./node_modules/@lumino/widgets/types/boxlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/commands/types/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/commandpalette.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/menu.d.ts": [
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/contextmenu.d.ts": [
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/tabbar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/docklayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/dockpanel.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/docklayout.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/focustracker.d.ts": [
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/gridlayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/menubar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/scrollbar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/singletonlayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/stackedlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/stackedpanel.d.ts": [
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/tabpanel.d.ts": [
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/index.d.ts": [
+        "./node_modules/@lumino/widgets/types/accordionlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/accordionpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/boxengine.d.ts",
+        "./node_modules/@lumino/widgets/types/boxlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/boxpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/commandpalette.d.ts",
+        "./node_modules/@lumino/widgets/types/contextmenu.d.ts",
+        "./node_modules/@lumino/widgets/types/docklayout.d.ts",
+        "./node_modules/@lumino/widgets/types/dockpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/focustracker.d.ts",
+        "./node_modules/@lumino/widgets/types/gridlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts",
+        "./node_modules/@lumino/widgets/types/menubar.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/scrollbar.d.ts",
+        "./node_modules/@lumino/widgets/types/singletonlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/tabpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/index.d.ts"
+      ],
+      "./src/index.ts": [
+        "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/@lumino/coreutils/types/index.common.d.ts": [
+        "./node_modules/@lumino/coreutils/types/json.d.ts",
+        "./node_modules/@lumino/coreutils/types/mime.d.ts",
+        "./node_modules/@lumino/coreutils/types/promise.d.ts",
+        "./node_modules/@lumino/coreutils/types/token.d.ts"
+      ],
+      "./node_modules/@lumino/coreutils/types/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.common.d.ts",
+        "./node_modules/@lumino/coreutils/types/random.browser.d.ts",
+        "./node_modules/@lumino/coreutils/types/uuid.browser.d.ts"
+      ],
+      "./src/index.ts": [
+        "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+        "./node_modules/@lumino/widgets/types/index.d.ts"
+      ],
+      "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/menu.d.ts": [
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/index.d.ts": [
+        "./node_modules/@lumino/widgets/types/accordionlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/accordionpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/boxengine.d.ts",
+        "./node_modules/@lumino/widgets/types/boxlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/boxpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/commandpalette.d.ts",
+        "./node_modules/@lumino/widgets/types/contextmenu.d.ts",
+        "./node_modules/@lumino/widgets/types/docklayout.d.ts",
+        "./node_modules/@lumino/widgets/types/dockpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/focustracker.d.ts",
+        "./node_modules/@lumino/widgets/types/gridlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts",
+        "./node_modules/@lumino/widgets/types/menubar.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/scrollbar.d.ts",
+        "./node_modules/@lumino/widgets/types/singletonlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/tabpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/menubar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/contextmenu.d.ts": [
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/menu.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/commandpalette.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/commands/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/commands/types/index.d.ts": [
+        "./node_modules/@lumino/coreutils/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/coreutils/types/random.browser.d.ts": [
+        "./node_modules/@lumino/coreutils/types/random.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/stackedlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/stackedpanel.d.ts": [
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/tabpanel.d.ts": [
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/stackedpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/scrollbar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/gridlayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/dockpanel.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/docklayout.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/docklayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/tabbar.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/boxlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/boxpanel.d.ts": [
+        "./node_modules/@lumino/widgets/types/boxlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/accordionpanel.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/accordionlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/splitpanel.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/splitpanel.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panel.d.ts",
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/splitlayout.d.ts": [
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/accordionlayout.d.ts": [
+        "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/layout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/singletonlayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/panellayout.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/panel.d.ts": [
+        "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/widget.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/messaging/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/layout.d.ts",
+        "./node_modules/@lumino/widgets/types/title.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/focustracker.d.ts": [
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/widgets/types/widget.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/index.d.ts": [
+        "./node_modules/@lumino/algorithm/types/array.d.ts",
+        "./node_modules/@lumino/algorithm/types/chain.d.ts",
+        "./node_modules/@lumino/algorithm/types/empty.d.ts",
+        "./node_modules/@lumino/algorithm/types/enumerate.d.ts",
+        "./node_modules/@lumino/algorithm/types/filter.d.ts",
+        "./node_modules/@lumino/algorithm/types/find.d.ts",
+        "./node_modules/@lumino/algorithm/types/iter.d.ts",
+        "./node_modules/@lumino/algorithm/types/map.d.ts",
+        "./node_modules/@lumino/algorithm/types/range.d.ts",
+        "./node_modules/@lumino/algorithm/types/reduce.d.ts",
+        "./node_modules/@lumino/algorithm/types/repeat.d.ts",
+        "./node_modules/@lumino/algorithm/types/retro.d.ts",
+        "./node_modules/@lumino/algorithm/types/sort.d.ts",
+        "./node_modules/@lumino/algorithm/types/stride.d.ts",
+        "./node_modules/@lumino/algorithm/types/string.d.ts",
+        "./node_modules/@lumino/algorithm/types/take.d.ts",
+        "./node_modules/@lumino/algorithm/types/zip.d.ts"
+      ],
+      "./node_modules/@lumino/disposable/types/index.d.ts": [
+        "./node_modules/@lumino/algorithm/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/widgets/types/title.d.ts": [
+        "./node_modules/@lumino/disposable/types/index.d.ts",
+        "./node_modules/@lumino/signaling/types/index.d.ts",
+        "./node_modules/@lumino/virtualdom/types/index.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/zip.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/take.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/stride.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/sort.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/retro.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/repeat.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/reduce.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/range.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/map.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/find.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/filter.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/enumerate.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/empty.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ],
+      "./node_modules/@lumino/algorithm/types/chain.d.ts": [
+        "./node_modules/@lumino/algorithm/types/iter.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@lumino/coreutils/types/json.d.ts",
+      "./node_modules/@lumino/coreutils/types/mime.d.ts",
+      "./node_modules/@lumino/coreutils/types/promise.d.ts",
+      "./node_modules/@lumino/coreutils/types/token.d.ts",
+      "./node_modules/@lumino/coreutils/types/index.common.d.ts",
+      "./node_modules/@lumino/coreutils/types/random.d.ts",
+      "./node_modules/@lumino/coreutils/types/random.browser.d.ts",
+      "./node_modules/@lumino/coreutils/types/uuid.browser.d.ts",
+      "./node_modules/@lumino/coreutils/types/index.d.ts",
+      "./node_modules/@lumino/messaging/types/index.d.ts",
+      "./node_modules/@lumino/algorithm/types/array.d.ts",
+      "./node_modules/@lumino/algorithm/types/iter.d.ts",
+      "./node_modules/@lumino/algorithm/types/chain.d.ts",
+      "./node_modules/@lumino/algorithm/types/empty.d.ts",
+      "./node_modules/@lumino/algorithm/types/enumerate.d.ts",
+      "./node_modules/@lumino/algorithm/types/filter.d.ts",
+      "./node_modules/@lumino/algorithm/types/find.d.ts",
+      "./node_modules/@lumino/algorithm/types/map.d.ts",
+      "./node_modules/@lumino/algorithm/types/range.d.ts",
+      "./node_modules/@lumino/algorithm/types/reduce.d.ts",
+      "./node_modules/@lumino/algorithm/types/repeat.d.ts",
+      "./node_modules/@lumino/algorithm/types/retro.d.ts",
+      "./node_modules/@lumino/algorithm/types/sort.d.ts",
+      "./node_modules/@lumino/algorithm/types/stride.d.ts",
+      "./node_modules/@lumino/algorithm/types/string.d.ts",
+      "./node_modules/@lumino/algorithm/types/take.d.ts",
+      "./node_modules/@lumino/algorithm/types/zip.d.ts",
+      "./node_modules/@lumino/algorithm/types/index.d.ts",
+      "./node_modules/@lumino/signaling/types/index.d.ts",
+      "./node_modules/@lumino/disposable/types/index.d.ts",
+      "./node_modules/@lumino/virtualdom/types/index.d.ts",
+      "./node_modules/@lumino/widgets/types/title.d.ts",
+      "./node_modules/@lumino/widgets/types/widget.d.ts",
+      "./node_modules/@lumino/widgets/types/layout.d.ts",
+      "./node_modules/@lumino/widgets/types/panellayout.d.ts",
+      "./node_modules/@lumino/widgets/types/splitlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/accordionlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/panel.d.ts",
+      "./node_modules/@lumino/widgets/types/splitpanel.d.ts",
+      "./node_modules/@lumino/widgets/types/accordionpanel.d.ts",
+      "./node_modules/@lumino/widgets/types/boxengine.d.ts",
+      "./node_modules/@lumino/widgets/types/boxlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/boxpanel.d.ts",
+      "./node_modules/@lumino/commands/types/index.d.ts",
+      "./node_modules/@lumino/widgets/types/commandpalette.d.ts",
+      "./node_modules/@lumino/widgets/types/menu.d.ts",
+      "./node_modules/@lumino/widgets/types/contextmenu.d.ts",
+      "./node_modules/@lumino/widgets/types/tabbar.d.ts",
+      "./node_modules/@lumino/widgets/types/docklayout.d.ts",
+      "./node_modules/@lumino/widgets/types/dockpanel.d.ts",
+      "./node_modules/@lumino/widgets/types/focustracker.d.ts",
+      "./node_modules/@lumino/widgets/types/gridlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/menubar.d.ts",
+      "./node_modules/@lumino/widgets/types/scrollbar.d.ts",
+      "./node_modules/@lumino/widgets/types/singletonlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/stackedlayout.d.ts",
+      "./node_modules/@lumino/widgets/types/stackedpanel.d.ts",
+      "./node_modules/@lumino/widgets/types/tabpanel.d.ts",
+      "./node_modules/@lumino/widgets/types/index.d.ts",
+      "./node_modules/@jupyterlab/rendermime-interfaces/lib/index.d.ts",
+      "./src/index.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+    ]
+  },
+  "version": "3.7.7"
+}

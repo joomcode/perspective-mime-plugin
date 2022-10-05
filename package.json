@@ -1,0 +1,40 @@
+{
+  "name": "perspective-mime",
+  "version": "0.1.0",
+  "description": "A JupyterLab extension for rendering perspective.arrow files.",
+  "author": "gburg <gburg@joom.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "jupyterlab": {
+    "mimeExtension": true
+  },
+  "scripts": {
+    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build",
+    "watch": "tsc -w",
+    "extension:install": "jupyter labextension install perspective-mime",
+    "extension:uninstall": "jupyter labextension uninstall  perspective-mime",
+    "extension:enable": "jupyter labextension enable perspective-mime",
+    "extension:disable": "jupyter labextension disable perspective-mime"
+  },
+  "dependencies": {
+    "@jupyterlab/rendermime-interfaces": "^2.0.0",
+    "@finos/perspective-jupyterlab": "^1.6.5",
+    "@lumino/widgets": "^1.5.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "~3.7.0"
+  }
+}
