@@ -133,6 +133,6 @@
   "emscripten": "3.1.14",
   "jupyterlab": {
     "extension": true,
-    "outputDir": "labextension"
+    "outputDir": "perspective-mime"
   }
 }
