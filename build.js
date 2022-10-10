@@ -22,7 +22,6 @@ const PROD_BUILD = {
 };
 
 async function build_all() {
-    cpy(["dist/css/*"], "dist/umd");
     await Promise.all([PROD_BUILD].map(build)).catch(() => process.exit(1));
     cpy(["dist/css/*"], "dist/umd");
 }
