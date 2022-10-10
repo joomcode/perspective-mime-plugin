@@ -1,4 +1,8 @@
 *.bundle.*
 lib/
+build/
+dist/
+labextension/
 node_modules/
 *.egg-info/
+.idea

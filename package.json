@@ -1,40 +1,138 @@
 {
   "name": "perspective-mime",
   "version": "0.1.0",
-  "description": "A JupyterLab extension for rendering perspective.arrow files.",
-  "author": "gburg <gburg@joom.com>",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "style": "style/index.css",
-  "keywords": [
-    "jupyter",
-    "jupyterlab",
-    "jupyterlab-extension"
-  ],
+  "description": "A JupyterLab extension for rendering perspective files.",
   "files": [
-    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
-    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+    "dist/**/*",
+    "src/**/*"
   ],
-  "jupyterlab": {
-    "mimeExtension": true
+  "main": "dist/umd/perspective-mime.js",
+  "style": "dist/umd/perspective-mime.css",
+  "directories": {
+    "dist": "dist/"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
-    "clean": "rimraf lib && rimraf tsconfig.tsbuildinfo",
-    "build": "tsc",
+    "clean": "rimraf lib && rimraf dist && rimraf tsconfig.tsbuildinfo",
+    "build": "tsc && node build.js",
     "prepare": "npm run clean && npm run build",
-    "watch": "tsc -w",
     "extension:install": "jupyter labextension install perspective-mime",
     "extension:uninstall": "jupyter labextension uninstall  perspective-mime",
     "extension:enable": "jupyter labextension enable perspective-mime",
     "extension:disable": "jupyter labextension disable perspective-mime"
   },
   "dependencies": {
-    "@jupyterlab/rendermime-interfaces": "^2.0.0",
-    "@finos/perspective-jupyterlab": "^1.6.5",
-    "@lumino/widgets": "^1.5.0"
+    "@finos/perspective": "^1.6.5",
+    "@finos/perspective-viewer": "^1.6.5",
+    "@finos/perspective-viewer-d3fc": "^1.6.5",
+    "@finos/perspective-viewer-datagrid": "^1.6.5",
+    "@finos/perspective-viewer-openlayers": "^1.6.5",
+    "@jupyterlab/notebook": "^3.4.5",
+    "@jupyterlab/rendermime": "^3.4.5",
+    "@jupyterlab/rendermime-interfaces": "^3.4.5",
+    "@lumino/widgets": "^1.5.0",
+    "file-loader": "^6.2.0"
   },
   "devDependencies": {
-    "rimraf": "^2.6.3",
-    "typescript": "~3.7.0"
+    "source-map-loader": "^0.2.4",
+    "@finos/perspective-webpack-plugin": "^1.6.5",
+    "@jupyterlab/builder": "^3.4.7",
+    "@finos/perspective-esbuild-plugin": "^1.6.5",
+
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@types/ws": "^7.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^4.31.0",
+    "arraybuffer-loader": "^1.0.2",
+    "babel-jest": "^25.1.0",
+    "chalk": "^2.4.2",
+    "cpy-cli": "^3.1.1",
+    "css-loader": "^0.28.7",
+    "cssnano": "^4.1.10",
+    "cssnano-preset-lite": "^1.0.1",
+    "decompress": "^4.2.1",
+    "decompress-unzip": "^4.0.1",
+    "dotenv": "^8.1.0",
+    "esbuild": "^0.13.12",
+    "esbuild-plugin-less": "^1.1.5",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "fs-extra": "^8.1.0",
+    "html-loader": "^0.5.1",
+    "html-loader-jest": "^0.2.1",
+    "html-webpack-plugin": "^5.1.0",
+    "husky": "^7.0.4",
+    "inquirer": "^7.0.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "jsdoc": "3.5.5",
+    "jsdoc-babel": "^0.5.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "lerna": "^3.22.1",
+    "less": "^4.1.0",
+    "less-loader": "^7.2.1",
+    "mini-css-extract-plugin": "^1.3.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "npm-pack-here": "^1.2.0",
+    "npm-run-all": "^4.1.3",
+    "octokit": "^1.7.2",
+    "postcss": "^8",
+    "postcss-loader": "^7",
+    "prettier": "^2.7.1",
+    "puppeteer": "^13.1.3",
+    "rimraf": "^2.6.2",
+    "sinon": "^7.3.1",
+    "style-loader": "^0.18.2",
+    "term-img": "^4.1.0",
+    "tiny-glob": "^0.2.9",
+    "ts-loader": "^6.2.0",
+    "typedoc": "^0.22.7",
+    "typedoc-plugin-markdown": "^3.11.6",
+    "typedoc-plugin-no-inherit": "^1.3.1",
+    "typescript": "4.3.3",
+    "webfontloader": "^1.6.28",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2",
+    "worker-loader": "^3.0.7"
+  },
+
+  "resolutions": {
+    "graceful-fs": "^4.2.4",
+    "jest": "^25.1.0",
+    "write-file-atomic": "3.0.0",
+    "postcss": "^8",
+    "webpack": "^5.60.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "npm-packlist": "1.1.12",
+    "@lumino/algorithm": "^1.9.1",
+    "@lumino/commands": "^1.20.0",
+    "@lumino/coreutils": "^1.12.0",
+    "@lumino/disposable": "^1.10.1",
+    "@lumino/domutils": "^1.8.1",
+    "@lumino/dragdrop": "^1.14.0",
+    "@lumino/keyboard": "^1.8.1",
+    "@lumino/messaging": "^1.10.1",
+    "@lumino/properties": "^1.8.1",
+    "@lumino/signaling": "^1.10.1",
+    "@lumino/virtualdom": "^1.14.1"
+  },
+
+  "engines": {
+    "node": ">=14.18.2"
+  },
+  "emscripten": "3.1.14",
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "labextension"
   }
 }
